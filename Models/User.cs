@@ -6,5 +6,5 @@ public class User
     public string? Username { get; set; }
     [DataType(DataType.Date)]
     public DateTime BirthDate { get; set; }
-    public string? Password;
+    public string? Password { get; set; }
 }
